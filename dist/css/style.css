@@ -1,0 +1,85 @@
+html, body, div {
+	font-family: 'Montserrat', sans-serif;
+}
+.jumbotron {
+	background: #2e3b44 url("https://cdn.filestackcontent.com/MYKx3nCpS8CQaDNM72Jd");
+	background-size: 100% auto;
+	padding:6em;
+}
+.jumbotron h1 {
+	color: #FFF;
+}
+.jumbotron p {
+	color: #BDC5CA;
+}
+.jumbotron .container {
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 40px;
+}
+.col-md-4 {
+	margin-bottom:15px;
+}
+.off {
+	display:none;
+}
+.on {
+	display:block;
+}
+.btn-filestack {
+	background-color: #EE4632;
+	border-color: #EE4632;
+
+}
+.btn-filestack, .btn-filestack:hover {
+	color: #FFF;
+}
+.btn-filestack:hover {
+	background-color: #db2812;
+}
+.btn-fiestack-preview, .btn-fiestack-preview:hover,  .btn-fiestack-preview:focus{
+	background-color:transparent;
+	color:#1B998B;
+	border-color: #1B998B;
+}
+ .btn-fiestack-preview:hover{
+	text-decoration:underline;
+}
+.btn-filestack-start {
+	padding: 0.5em 6em;
+}
+.navbar-inverse {
+	background-color: #283A46;
+    border-bottom-color: #8D98A0;
+}
+.navbar-brand {
+	color: #FFF !important;
+}
+.navbar-nav li a{
+	color:#BAC3C9 !important;
+}
+footer {
+	text-align: center;
+}
+footer a, footer a:hover {
+	color:#EE4632;
+}
+.thumbnail-cover {
+	width: 50%;
+}
+.media {
+	margin-top:20px !important;
+	padding-bottom:20px;
+	border-bottom: 1px solid #eee;
+}
+.image-list:first-child {
+    margin-top: 0 !important;
+}
+.ng-invalid.ng-dirty{
+	border-color: #FA787E;
+}
+.ng-valid.ng-dirty{
+	border-color: #78FA89;
+}
+.second-title {
+    font-size: 0.75em;
+}

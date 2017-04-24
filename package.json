@@ -1,0 +1,40 @@
+{
+  "name": "image-enhancements-react",
+  "version": "1.0.0",
+  "description": "Filestack Image Enhancements with React",
+  "main": "index.js",
+  "repository": "",
+  "author": "samuxyz <zaza.samuele@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "api": "json-server --watch db.json"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "filestack-js": "^0.5.2",
+    "json-server": "^0.9.6",
+    "moment": "^2.18.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "3.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.4.0",
+    "babel-plugin-transform-class-properties": "^6.23.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.27.1",
+    "eslint": "^3.17.1",
+    "eslint-loader": "^1.6.3",
+    "eslint-plugin-react": "^6.10.0",
+    "html-webpack-plugin": "^2.28.0",
+    "react-hot-loader": "next",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
